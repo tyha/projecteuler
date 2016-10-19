@@ -6,8 +6,11 @@ def valid(n):
             return False
     return True
 
-n=2*3*5*7*11*13*17*19
+#multiple of prime numbers under 20
+a=2*3*5*7*11*13*17*19
+
+n=a
 while(not valid(n)):
-    n+=2*3*5*7*11*13*17*19
+    n+=a
 
 print(n)
