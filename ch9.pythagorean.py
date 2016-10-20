@@ -9,4 +9,4 @@ for a in reversed(range(1,333)):
         if(a+b+c > 1000):
             break
         if(a+b+c==1000.0):
-            print (a,b,c)
+            print (a*b*c)
